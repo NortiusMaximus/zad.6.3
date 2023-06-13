@@ -1,7 +1,6 @@
 import csv 
 
 from sqlalchemy import create_engine, MetaData, Integer, String, Float, Table, Column, ForeignKey
-from sqlalchemy import create_engine
 
 cl_st = [*csv.DictReader(open('clean_stations.csv'))]
 cl_me = [*csv.DictReader(open('clean_measure.csv'))]
